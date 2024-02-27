@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lietuvos Raudonoji knyga</title>
+</head>
+
+    <div>
+        <h1>Saugomi gyvunai Lietuvoje</h1>
+    </div>
+    <div>
+        <a href="http://127.0.0.1:5500/002/valio.html">Valio</a>
+        <a href="http://127.0.0.1:5500/002/kitas.html">Kitas</a>
+        <a href="https://www.15min.lt">15min</a>
+        <a href="https://www.alfa.lt">Alfa</a>
+    </div>
+    <div>
+        <button>Mygtukas</button>
+        <input type="text" />
+        <input type="password" />
+        <input type="checkbox" />
+        <input type="radio" name="jonas" />
+        <input type="radio" name="jonas" />
+        <input type="radio" name="jonas" />
+        <input type="color" />
+        <select>
+            <option>--------1----------</option>
+            <option>--------2----------</option>
+            <option>--------3----------</option>
+        </select>
+        <!-- <textarea></textarea> -->
+    </div>
+
+    <!-- šitas tagas yra nenaudotinas -->
+    <br /><br />
+
+    <div>
+        <input type="text" value="va va" />
+        <input type="text" placeholder="ku ku" />
+    </div>
+
+    <table>
+        <tr>
+            <td>
+                <h2>1</h2>
+            </td>
+            <td>
+                <h2>*****************************2</h2>
+            </td>
+            <td>
+                <h2>3</h2>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>4</h2>
+            </td>
+            <td>
+                <h2>5</h2>
+            </td>
+            <td>
+                <h2>6</h2>
+            </td>
+        </tr>
+    </table>
+
+   
+    
+    
+</body>
+</html>
