@@ -5,3 +5,15 @@ table, th, td {
     width: 1000px;
     height: 150px;
   }
+
+h1 {
+    text-align: center;
+}
+
+#paragraph1 {
+    text-align: center;
+}
+
+#azuoline-miegapele {
+    color: red;
+}
