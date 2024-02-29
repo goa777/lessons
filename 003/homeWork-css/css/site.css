@@ -1,19 +1,87 @@
-table, th, td {
-    border: none;
-    padding: 2px 2px 2px 2px;
-    border-collapse: collapse;
-    width: 1000px;
-    height: 150px;
-  }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+table,
+td {
+  border-collapse: collapse;
+  border-spacing: 0px 0px;
+}
+
+table tr td {
+  background-color: skyblue;
+  border: 1px solid #dedede;
+  border-collapse: collapse;
+  padding: 2px 2px 2px 2px;
+  width: 1000px;
+  height: 150px;
+  text-align: center;
+}
+
+table tr {
+  color: beige;
+}
 
 h1 {
-    text-align: center;
+  text-align: left;
+  color: aquamarine;
 }
 
 #paragraph1 {
-    text-align: center;
+  text-align: center;
 }
 
 #azuoline-miegapele {
-    color: red;
+  color: red;
+}
+
+#index-list a {
+  color: orange;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#index-list ol li::marker {
+  color: gray;
+  font-weight: bold;
+}
+
+table .animal-title {
+  color: white;
+}
+
+table tr:last-child td:last-child {
+  display: none;
+  background-color: white;
+}
+
+/* .clearfix {
+  clear: left;
+}
+
+.image-container img {
+  float: left;
+  padding: 0 5px;
+} */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }

@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lietuvos Raudonoji knyga</title>
-    <link rel="stylesheet" href="http://127.0.0.1:5500/site.css" />
+    <link rel="stylesheet" href="css/site.css" />
   </head>
   <body>
     <h1>Saugomi gyvūnai Lietuvoje</h1>
-    <ol>
-      <li><a href="astriasnipis-ersketas.html">Aštriašnipis eršketas</a></li>
-      <li><a href="atlantinis-ersketas.html">Atlantinis eršketas</a></li>
-      <li><a href="auksaspalvis-kirtiklis.html">Auksaspalvis kirtiklis</a></li>
-      <li><a href="avocete.html">Avocetė</a></li>
-      <li><a href="azuoline-miegapele.html">Ąžuolinė miegapelė</a></li>
-    </ol>
+    <div id="index-list">
+      <ol>
+        <li><a href="astriasnipis-ersketas.html">Aštriašnipis eršketas</a></li>
+        <li><a href="atlantinis-ersketas.html">Atlantinis eršketas</a></li>
+        <li>
+          <a href="auksaspalvis-kirtiklis.html">Auksaspalvis kirtiklis</a>
+        </li>
+        <li><a href="avocete.html">Avocetė</a></li>
+        <li><a href="azuoline-miegapele.html">Ąžuolinė miegapelė</a></li>
+      </ol>
+    </div>
+
     <table>
       <tr>
         <td>
-          <b>Aštriašnipis eršketas</b>
+          <span class="animal-title"><b>Aštriašnipis eršketas</b></span>
           <br /><br />
           <div>
             <i>Aštriašnipis eršketas</i> (<u>lot.</u>
@@ -31,7 +36,7 @@
           </div>
         </td>
         <td>
-          <b>Atlantinis eršketas</b>
+          <span class="animal-title"><b>Atlantinis eršketas</b></span>
           <br /><br />
           <div>
             <i>Sturys, arba Atlantinis eršketas</i> (<u>lot.</u>
@@ -47,7 +52,7 @@
           </div>
         </td>
         <td>
-          <b>Auksaspalvis kirtiklis</b>
+          <span class="animal-title"><b>Auksaspalvis kirtiklis</b></span>
           <br /><br />
           <div>
             <i>Auksaspalvis kirtiklis arba šiaurinis auksaspalvis kirtiklis</i>
@@ -63,7 +68,7 @@
       </tr>
       <tr>
         <td>
-          <b>Avocetė</b>
+          <span class="animal-title"><b>Avocetė</b></span>
           <br /><br />
           <div><i>Avocetė</i> (<u>lot.</u> <b>Recurvirostra avosetta</b>)</div>
           <br /><br />
@@ -73,7 +78,7 @@
           </div>
         </td>
         <td>
-          <b>Ąžuolinė miegapelė</b>
+          <span class="animal-title"><b>Ąžuolinė miegapelė</b></span>
           <br /><br />
           <div>
             <i>Ąžuolinė miegapelė</i> (<u>lot.</u> <b>Eliomys quercinus</b>)
@@ -84,6 +89,7 @@
             knygą rūšis įrašyta nuo 1989 iki 2019 metų.
           </div>
         </td>
+        <td></td>
       </tr>
     </table>
   </body>
