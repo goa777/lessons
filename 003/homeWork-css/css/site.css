@@ -26,7 +26,8 @@ table tr {
   color: beige;
 }
 
-h1, h3 {
+h1,
+h3 {
   text-align: left;
   color: aquamarine;
 }
@@ -109,3 +110,34 @@ ul li {
   width: fit-content;
   height: fit-content;
 }
+
+#Auksaspalvis-kirtiklis {
+  color: pink;
+  text-transform: uppercase;
+  color: #4caf50;
+}
+
+#ph1 {
+  color: pink;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pavad {
+  color: chartreuse;
+  text-transform: uppercase;
+  text-decoration: underline solid red 50%;
+}
+
+
+#salys {
+  color: darkgreen;
+  margin: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {
+    text-decoration-color: red;    
+  }
