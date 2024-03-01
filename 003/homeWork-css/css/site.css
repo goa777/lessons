@@ -26,9 +26,15 @@ table tr {
   color: beige;
 }
 
-h1 {
+h1, h3 {
   text-align: left;
   color: aquamarine;
+}
+
+#index-html {
+  text-align: left;
+  color: orange;
+  font-size: 20px;
 }
 
 #paragraph1 {
@@ -76,11 +82,31 @@ table tr:last-child td:last-child {
 }
 @media screen and (max-width: 768px) {
   .image-container img {
-      max-width: calc(100% / 2 - 10px);
+    max-width: calc(100% / 2 - 10px);
   }
 }
 @media screen and (max-width: 480px) {
   .image-container img {
-      max-width: 100%;
+    max-width: 100%;
   }
+}
+
+video {
+  width: auto 100%;
+  height: auto;
+}
+
+#index-list ul {
+  color: white;
+  position: static;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 15px;
+  margin-right: auto;
+  width: fit-content;
+  height: fit-content;
+  
 }
