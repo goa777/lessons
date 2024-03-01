@@ -60,28 +60,27 @@ table tr:last-child td:last-child {
   background-color: white;
 }
 
-/* .clearfix {
-  clear: left;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
-
-.image-container img {
-  float: left;
-  padding: 0 5px;
-} */
-
-.row {
+.image-container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 4px;
 }
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  padding: 0 4px;
+.image-container img {
+  max-width: calc(100% / 3 - 10px);
+  margin-bottom: 20px;
 }
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+@media screen and (max-width: 768px) {
+  .image-container img {
+      max-width: calc(100% / 2 - 10px);
+  }
+}
+@media screen and (max-width: 480px) {
+  .image-container img {
+      max-width: 100%;
+  }
 }

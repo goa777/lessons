@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Images</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .image-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .image-container img {
+        max-width: calc(100% / 3 - 10px);
+        margin-bottom: 20px;
+    }
+    @media screen and (max-width: 768px) {
+        .image-container img {
+            max-width: calc(100% / 2 - 10px);
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .image-container img {
+            max-width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+    </div>
+</body>
+</html>
