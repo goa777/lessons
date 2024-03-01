@@ -117,14 +117,15 @@ ul li {
   color: #4caf50;
 }
 
+
 #ph1 {
   color: pink;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.pavad {
-  color: chartreuse;
+#pavad {
+  color: rgb(231, 34, 50);
   text-transform: uppercase;
   text-decoration: underline solid red 50%;
 }
@@ -140,4 +141,17 @@ ul li {
 @keyframes mymove {
   50% {
     text-decoration-color: red;    
-  }
+  } 
+}
+
+#atlantinis-ersketas {
+  color: rgb(214, 20, 20);
+  text-transform: uppercase;
+  text-align: center;
+  background-color: skyblue;
+  border: 1px solid #dedede;
+  border-collapse: collapse;
+  padding: 2px 2px 2px 2px;
+ }
+
+ 
