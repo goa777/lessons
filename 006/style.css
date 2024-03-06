@@ -1,0 +1,84 @@
+* {
+    letter-spacing: 3px;
+}
+
+
+
+i {
+    color: steelblue;
+}
+ 
+.big {
+    font-size: 2em;
+    color: greenyellow;
+}
+ 
+.big .small {
+    font-size: 0.5em;
+    color: crimson;
+}
+ 
+.big.small {
+    font-size: 3.5em;
+    color: lightcoral;
+}
+
+#big {
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+#big .small {
+    font-size: 0,3em;
+    color: blue;
+}
+
+
+button {
+    font-size: 1.5em;
+    color: darkorchid;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+   
+}
+
+button [type="submit"] {
+    background-color: aliceblue;
+    border: 1px solid darkred;
+}
+
+.span-1, .samp-2 {
+    font-size: 1,5em;
+    color: blueviolet;
+   padding: 5px;
+   margin: 5px;
+}
+
+.parent > p {
+    font-size: 1.5em;
+    color: brown;
+    padding: 5px;
+    margin: 5px;
+}
+
+p + h2 {
+    color: deeppink;
+}
+
+h2 + h3 {
+    color: orange;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 5px;
+}
+
+h5 ~ samp {
+    font-size: 4.5em;
+    color: blue;
+    padding: 5px;
+    margin: 5px;
+}
