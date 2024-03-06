@@ -60,7 +60,7 @@ button [type="submit"] {
 
 .parent > p {
     font-size: 1.5em;
-    color: brown;
+    color: rgb(97, 18, 243);
     padding: 5px;
     margin: 5px;
 }
@@ -70,15 +70,15 @@ p + h2 {
 }
 
 h2 + h3 {
-    color: orange;
+    color: olive;
     font-size: 1.5em;
     padding: 5px;
     margin: 5px;
 }
 
-h5 ~ samp {
+h5 ~ span {
     font-size: 4.5em;
-    color: blue;
+    color: mediumpurple;
     padding: 5px;
     margin: 5px;
 }
