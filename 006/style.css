@@ -108,6 +108,11 @@ ul li:last-child {
     font-size: 60px;
 }
 
+label {
+    user-select: none;
+    cursor: pointer;
+}
+
 [type="checkbox"] {
     display: none;
 }
