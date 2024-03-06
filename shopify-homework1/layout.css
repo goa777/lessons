@@ -1,7 +1,6 @@
 body {
   margin: 0;
   color: aliceblue;
-  height: 15px;
 }
 
 .section-1 {
@@ -16,13 +15,9 @@ body {
 }
 
 .section-2 {
-  margin: 0;
   background-color: #b2e2d8;
   height: 90px;
-  display: block;
   position: relative;
-  padding: 0;
-  display: block;
 }
 
 .section-2 img {
@@ -30,36 +25,48 @@ body {
   width: 20px;
 }
 
-.section-3 img {
-  width: 100%;
-  left: 0;
-
+.section-3 {
+  background-image: url("pictures/desktop.webp");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  position: relative;
+  display: flex;
 }
 
-.section-3 h1 {
+.section-3 .section-3-left,
+.section-3 .section-3-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 .section-3-left h1 {
+  margin: 0;
   font-family: sans-serif;
   color: #3a3a3e;
   font-size: 28px;
   margin-bottom: 0;
-  display: table-cell;
 }
 
-.section-3 h2 {
+.section-3 .section-3-left h2 {
+  margin: 0;
   color: #7c6f74;
   font-size: 20px;
-  display: table-cell;
 }
 
 .section-4 {
- width: 10%;
- left: 0;
-    
+  width: 10%;
+  left: 0;
 }
 
 .section-5 {
   width: 100%;
-  color: #3A3A3E;
-  background-color: #F6DFD9;
+  color: #3a3a3e;
+  background-color: #f6dfd9;
   text-align: center;
   padding: 15px 0;
   font-family: Tahoma, sans-serif;
