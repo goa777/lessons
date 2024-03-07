@@ -1,8 +1,14 @@
 console.log('Hello from far away!');
 
-let X = 10;
+let a = 10;
+let b = '10';
+let c = 'hello';
 
-let a = X + 5;
+
+let x = 'An';
+let y = 'tis';
+
+let rez = x + y;
 
 
-console.log('a:', a);
+console.log(rez);
