@@ -11,4 +11,4 @@ let y = 'tis';
 let l1 = 'B';
 let l2 = 'a'
 
-console.log(l1 + l2 + +l2 +l2);
+console.log(+b + a);
