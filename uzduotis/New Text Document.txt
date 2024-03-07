@@ -1,0 +1,4 @@
+Panaudojant du DIV tagus nupaišyti + ženklą. 
+Ženklas turi visada likti ekrano centre, 
+būti mėlynas ir 
+turėti išorinius išmatavimus 200*200px
