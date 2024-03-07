@@ -8,7 +8,7 @@ let c = 'hello';
 let x = 'An';
 let y = 'tis';
 
-let rez = x + y;
+let l1 = 'B';
+let l2 = 'a'
 
-
-console.log(a + +b);
+console.log(l1 + l2 + +l2 +l2);
