@@ -11,6 +11,6 @@ let y = 'tis';
 let l1 = 'B';
 let l2 = 'a'
 
-console.log(b - a);
+console.log(b - c);
 
 
