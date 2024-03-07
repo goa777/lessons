@@ -11,7 +11,6 @@ let y = 'tis';
 let l1 = 'B';
 let l2 = 'a'
 
-console.log(typeof a);
-console.log(typeof b);
-console.log(typeof c)
+console.log(b - a);
+
 
