@@ -11,4 +11,4 @@ let y = 'tis';
 let rez = x + y;
 
 
-console.log(rez);
+console.log(a + +b);
