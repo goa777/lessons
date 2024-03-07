@@ -1,7 +1,33 @@
-.class + {
-    color: blue;
-    width: 200px;
-    height: 200px;
-   
+body {
+    background-color: darkcyan;
+    margin: 0;
+    display: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
+.plus {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.plus::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 100px;
+    background-color: skyblue;
+
+}
+
+.plus::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    left: 75px;
+    background-color: skyblue;
+}
