@@ -159,12 +159,15 @@ li.m {
 
 .section-3 {
   background-image: url("pictures/desktop.webp");
-  height: 500px;
+  height: flex;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center top;
   position: relative;
-  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  box-sizing: border-box;
 }
 
 .section-3 .section-3-left,
@@ -176,23 +179,41 @@ li.m {
 
 .section-3 .section-3-left {
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .section-3 .section-3-left h1 {
-  margin-top: 15%;
-  margin-left: 20%;
-  font-family: sans-serif;
+  margin-top: 40%;
+  margin-left: 10%;
   color: #3a3a3e;
-  font-size: 28px;
-  margin-bottom: 10px;
+  font-family: var(--Righteous), var(--sans-sefir);
+  font-weight: var(400);
+  letter-spacing: var(0.1em);
+  line-height: var(-1.8);
+  word-break: normal;
 }
 
+
 .section-3 .section-3-left h2 {
-  margin: 0;
-  margin-left: 20%;
+  margin: 10px;
+  margin-left: 10%;
+  margin-top: flex;
   color: #7c6f74;
-  font-size: 20px;
+  font-size: 17px;
+  display: table;
+  width: 100%;
+  height: 40%;
+  vertical-align: bottom;
+  text-transform: uppercase;
+ 
 }
+
+
+
+
+
+
 
 .section-4 {
   padding: 50px 0;
@@ -201,20 +222,32 @@ li.m {
 
 .section-4 img {
   width: 150px;
-  padding: 20px
+  padding: 20px;
+  box-sizing: border-box;
 }
+
+
+
+
+
 
 .section-5 {
   width: 100%;
   color: #3a3a3e;
   background-color: #f6dfd9;
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0;
   font-family: Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+   display: flex;
+  align-items: center;
+
+
+
 }
+
+
 
 
 
