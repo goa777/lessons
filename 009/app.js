@@ -129,3 +129,39 @@ console.log('m:', m);
 console.log('is NaN', isNaN(m));
 console.log('true !== 1', true !== 1);
 console.log('true != 1', true != 1);
+
+
+console.clear();
+
+
+
+function rand(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+let n = 3;
+
+n = n * 3;
+
+if (n > 15) {
+    console.log('n is greater than 15');
+    console.log('n:', n);
+} else {
+    console.log('n is less than 15');
+    console.log('n:', n);
+}
+
+let o = rand(1, 20);
+
+console.log('o:', o);
+
+if ( o > 5 && o < 10) {
+    o = o * 2;
+} else {
+    o = o * 3;
+}
+
+console.log('o:', o);
