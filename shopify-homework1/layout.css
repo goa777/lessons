@@ -240,15 +240,20 @@ li.m {
   font-family: Tahoma, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
-   display: flex;
+  display: flex;
   align-items: center;
-
-
 
 }
 
 
 
+
+
+.section-6 img{
+  width: 33.3333%;
+  padding-left: 30px;
+  min-height: 1px;
+}
 
 
 
