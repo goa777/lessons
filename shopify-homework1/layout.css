@@ -248,12 +248,149 @@ li.m {
 
 
 
-
-.section-6 img{
-  width: 33.3333%;
-  padding-left: 30px;
-  min-height: 1px;
+.section-6 h3{
+  color: #3A3A3E;
+  width: 100%;
+  color: #3a3a3e;
+  padding: 30px 0;
+  font-family: var(--Righteous),var(--sans-serif);
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: var(0.1em);
+  box-sizing: border-box;
+  text-align: center !important;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: block;
 }
 
 
 
+
+.section-6 .section-6-img {
+  width: var(300px);
+  height: auto;
+  position: absolute;
+  transition: all 0.5s; 
+  display: inline-block;
+    
+}
+ 
+.section-6 .section-6-img .gray1 {
+  border: none;
+  padding: 10px;
+  width: var(--img);
+  position: relative;
+  margin: 0 auto;
+  height: 130px;
+  overflow: hidden;
+  top: 10px;
+  left: 20px;
+  transition: all 0.5s;
+  object-fit: cover;
+  
+}
+
+.section-6 .section-6-img .gray2 {
+   border: none;
+  padding: 10px;
+  width: var(--img);
+  position: relative;
+  margin: 0 auto;
+  height: 130px;
+  overflow: hidden;
+  top: 10px;
+  left: calc(var(--img) + 100%);
+  transition: all 0.5s;
+  object-fit: cover;
+} 
+
+.section-6 .section-6-img .dark1 {
+  border: none;
+  padding: 10px;
+  width: var(--img);
+  position: relative;
+  margin: 0 auto;
+  height: 130px;
+  overflow: hidden;
+  top: 10px;
+  left: 20px;
+  transition: all 0.5s;
+  object-fit: cover;
+  
+}
+
+.section-6 .section-6-img .dark2 {
+   border: none;
+  padding: 10px;
+  width: var(--img);
+  position: relative;
+  margin: 0 auto;
+  height: 130px;
+  overflow: hidden;
+  top: 10px;
+  left: calc(var(--img) + 100%);
+  transition: all 0.5s;
+  object-fit: cover;
+} 
+
+.section-6 .section-6-img .beige1 {
+  border: none;
+  padding: 10px;
+  width: var(--img);
+  position: relative;
+  margin: 0 auto;
+  height: 130px;
+  overflow: hidden;
+  top: 10px;
+  left: 20px;
+  transition: all 0.5s;
+  object-fit: cover;
+  
+}
+
+.section-6 .section-6-img .beige2 {
+   border: none;
+  padding: 10px;
+  width: var(--img);
+  position: relative;
+  margin: 0 auto;
+  height: 130px;
+  overflow: hidden;
+  top: 10px;
+  left: calc(var(--img) + 100%);
+  transition: all 0.5s;
+  object-fit: cover;
+} 
+
+
+
+
+
+
+
+.section-6-img:hover .gray1 {
+  left: calc(-1 * (var(--img) + 40px));
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.section-6-img:hover .gray2 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.section-6-img:hover .dark1 {
+  left: calc(-1 * (var(--img) + 40px));
+}
+.section-6-img:hover .dark2 {
+  left: 20px;
+}
+
+.section-6-img:hover .beige1 {
+  left: calc(-1 * (var(--img) + 40px));
+}
+.section-6-img:hover .beige2 {
+  left: 20px;
+}
