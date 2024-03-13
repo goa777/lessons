@@ -50,3 +50,21 @@ else {
 }
 
 console.log (result);
+
+console.clear();
+
+
+
+console.log (Math.PI);
+
+console.log(Math.round(45.78));
+console.log(Math.round(45.49));
+
+
+console.log(Math.floor(45.9));
+
+console.log(Math.ceil(45.1));
+
+
+
+
