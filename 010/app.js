@@ -65,6 +65,12 @@ console.log(Math.floor(45.9));
 
 console.log(Math.ceil(45.1));
 
+console.log(Math.min(45, 3, 5, 7, -9, 0, 1, 2, 3, 4, 5, 6, 12));
+console.log(Math.max(45, 3, 5, 7, -9, 0, 1, 2, 3, 4, 5, 6, 12));
+
+console.log(Math.abs(-45));
+
+console.log(Math.random());
 
 
 
