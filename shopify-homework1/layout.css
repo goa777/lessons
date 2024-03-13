@@ -238,41 +238,29 @@ li.m {
 }
 
 .section-5 p {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  
+   text-align: center;
+   width: 100%;
   color: #3a3a3e;
   font-family: Tahoma, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
- position: relative;
-  animation: MyDiv 20s infinite ease-in;
-   animation-direction: reverse;
-}
-@keyframes MyDiv {
-  0%   {left: -100%; top: 0;}
-  100%  {left: 0; top: 0;}
+  animation-duration: 15s;
+  animation-name: slidein;
 }
 
-
-
-
-
-/*
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 100%;
+    width: 300%;
   }
   to {
-    margin-left: -100%;
+    margin-left: 0%;
     width: 100%;
   }
 }
-*/
+
 
 
 
@@ -281,8 +269,6 @@ li.m {
 
 .section-6 h3{
   color: #3A3A3E;
-  width: 100%;
-  color: #3a3a3e;
   padding: 30px 0;
   font-family: var(--Righteous),var(--sans-serif);
   font-weight: bold;
@@ -295,13 +281,15 @@ li.m {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 
 
 
 .section-6 .section-6-img {
-  max-width: 800px;
+  max-width: 100px;
   min-width: 400px;
   margin-inline: auto;
  display: flex;
@@ -310,6 +298,7 @@ li.m {
  align-items: center;
  flex-flow: row nowrap;
  align-content: space-evenly;
+ position: relative;
     
 }
  
@@ -344,6 +333,7 @@ li.m {
   transition: all 0.5s;
   object-fit: cover;
 } 
+
 
 
 
@@ -411,7 +401,7 @@ li.m {
 
 
 
-/*
+
 .section-6-img:hover .gray1 {
   left: calc(-1 * (var(--img) + 40px));
   -webkit-transform: scaleX(-1);
