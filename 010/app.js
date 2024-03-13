@@ -85,3 +85,25 @@ console.log(str.length);
 console.log(str[0]);
 console.log(str[0] + str[1]);
 
+
+
+
+let fairytail = 'once upon a time, in a faraway forest...';
+
+console.log(fairytail. includes('forest'));
+console.log(fairytail. includes('up on'));
+console.log(fairytail. includes('upon'));
+console.log(fairytail. indexOf('upon'));
+console.log(fairytail. indexOf('bla'));
+console.log(fairytail. indexOf('once'));
+
+let shortString = 'abc';
+console.log(shortString.padEnd(1005, '*'));
+
+console.clear();
+
+
+let shortFairytail = fairytail.slice(0, 10);
+
+
+console.log(shortFairytail);
