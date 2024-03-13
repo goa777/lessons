@@ -25,4 +25,28 @@ console.log (result);
 console.clear();
 
 
-if (5 > 3) console.log('5 is greater than 3');
+if (5 > 13) 
+console.log('5 is greater than 3');
+console.log('5 is greater than 3');
+
+console.clear();
+
+
+
+
+console.log(one, two);
+
+if (one == 0 || two == 0) {
+    result = 'cannot divide by zero';
+}
+
+
+
+else if (one > two) { 
+    result = one / two;
+}
+else {
+     result = two / one;
+}
+
+console.log (result);
