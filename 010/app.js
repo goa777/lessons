@@ -103,7 +103,15 @@ console.log(shortString.padEnd(1005, '*'));
 console.clear();
 
 
-let shortFairytail = fairytail.slice(0, 10);
-
+let shortFairytail = fairytail.slice(5, 10);
 
 console.log(shortFairytail);
+
+let lowerCaseFairytail = fairytail.toUpperCase();
+
+console.log(lowerCaseFairytail);
+
+console.log('ABC'.charCodeAt(2));
+console.log('aaa'> 'aa');
+
+
