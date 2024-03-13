@@ -74,3 +74,14 @@ console.log(Math.random());
 
 
 
+console.clear();
+
+
+
+let str = 'Barsukas';
+
+console.log(str.length);
+
+console.log(str[0]);
+console.log(str[0] + str[1]);
+
