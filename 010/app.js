@@ -115,3 +115,63 @@ console.log('ABC'.charCodeAt(2));
 console.log('aaa'> 'aa');
 
 
+console.clear();
+
+
+
+
+let v;
+
+if (5 > 8) {
+    v = 'Jo';
+} else {
+    v = 'Ne';
+}
+
+console.log(v);
+
+let vv = (5 > 8) ? 'Jo' : 'Ne';
+
+console.log(vv);
+
+
+let A = -88;
+let aRez;
+ 
+if (A > 0) {
+    aRez = 'Teigiamas';
+} else if (A < 0) {
+    aRez = 'Neigiamas';
+} else {
+    aRez = 'Nulis';
+}
+ 
+console.log(aRez);
+ 
+let aRez2 = (A > 0) ? 'Teigiamas' : (A < 0) ? 'Neigiamas' : 'Nulis';
+ 
+console.log(aRez2);
+
+15 > 8 ? console.log('taip') : console.log('ne');
+
+
+let z1 = 5;
+let z2 = 8;
+
+/*let zasys2 = z1 + ' Zasys su ' + z2 + ' zasyciais ';*/
+let zasys2 = `${z1} Zasys su ${z2} zasyciais`;
+
+console.log(zasys2);
+
+
+let longKultilineStory = 'Labas rytas, \n' + 
+    'kaip sekasi? \n' + 
+    'Gerai?';
+
+console.log(longKultilineStory);
+
+let longKultilineStory2 = `Labas rytas,
+kaip sekasi?
+Gerai?`;
+
+console.log(longKultilineStory2);
