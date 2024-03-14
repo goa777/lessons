@@ -292,3 +292,47 @@ li.m {
   letter-spacing: 0.1em;
 }
 */
+
+
+.section-6 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.img .gray2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay img .gray2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  
+}
+
+.container:hover .overlay .gray2{
+  opacity: 1;
+}
+
+.icon .gray2 {
+  
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+
+}
