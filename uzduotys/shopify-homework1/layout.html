@@ -33,7 +33,7 @@
 
   <div class="section-2">
     <div class="container">
-      <div class="box box-1">
+      <div class="box box-left">
         <nav>
           <ul class="desktop-menu">
             <li><a href="#">Home</a></li>
@@ -52,13 +52,13 @@
       </div>
 
 
-      <div class="box box-2">
+      <div class="box box-center">
         <a href="#">
           <img src="pictures/Logo_white.png" alt="logo" />
         </a>
       </div>
 
-      <div class="box box-3">
+      <div class="box box-right">
 
         <a href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -138,25 +138,92 @@
   <div class="section-6">
     <h3 class="h3">Travel with comfort</h3>
 
-    <div class="image-container">
-      <div class="image-wrapper">
-        <img src="pictures/gray1.webp" alt="Original Image 1" class="original-image">
-        <img src="pictures/gray2.webp" alt="Hover Image 1" class="hover-image">
+    <div class="container">
+      <div class="product-item-container">
+        <div class="product-item-soldout-left">
+          <p>Sold Out</p>
+        </div>
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img src="pictures/gray1.webp" alt="Original Image 1" class="original-image">
+            <img src="pictures/gray2.webp" alt="Hover Image 1" class="hover-image">
+          </div>
+        </div>
+        <div class="product-item-description">
+          <b>Car Seat for Dogs - Light Gray</b>
+          <p>$45.95</p>
+        </div>
       </div>
-      <div class="image-wrapper">
-        <img src="pictures/dark1.webp" alt="Original Image 2" class="original-image">
-        <img src="pictures/dark2.webp" alt="Hover Image 2" class="hover-image">
+
+      <div class="product-item-container">
+        <div class="product-item-signs-container">
+          <div class="product-item-add-sign-right">
+            +
+          </div>
+        </div>
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img src="pictures/dark1.webp" alt="Original Image 2" class="original-image">
+            <img src="pictures/dark2.webp" alt="Hover Image 2" class="hover-image">
+          </div>
+        </div>
+        <div class="product-item-description">
+          <b>Car Seat for Dogs - Dark Gray</b>
+          <p>$45.95</p>
+        </div>
       </div>
-      <div class="image-wrapper">
-        <img src="pictures/beige1.webp" alt="Original Image 3" class="original-image">
-        <img src="pictures/beige2.webp" alt="Hover Image 3" class="hover-image">
+
+      <div class="product-item-container">
+        <div class="product-item-signs-container">
+          <div class="product-item-add-sign-right">
+            +
+          </div>
+        </div>
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img src="pictures/beige1.webp" alt="Original Image 3" class="original-image">
+            <img src="pictures/beige2.webp" alt="Hover Image 3" class="hover-image">
+          </div>
+        </div>
+        <div class="product-item-description">
+          <b>Car Seat for Dogs - Beige</b>
+          <p>$45.95</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button class="custom-button">View all</button>
+    </div>
+
+  </div>
+
+  sukurti div sekcijas
+
+
+  <div class="section-10">
+
+    <script>
+      function changeImage(imageSrc) {
+        document.getElementById('preview-image').src = imageSrc;
+      }
+    </script>
+
+    <div class="image-gallery">
+      <div class="thumbnails">
+        <img src="pictures/gray1.webp" alt="Thumbnail 1" class="thumbnail" onclick="changeImage('pictures/gray1.webp')">
+        <img src="pictures/dark1.webp" alt="Thumbnail 2" class="thumbnail" onclick="changeImage('pictures/dark1.webp')">
+        <img src="pictures/beige1.webp" alt="Thumbnail 3" class="thumbnail" onclick="changeImage('pictures/beige1.webp')">
+      </div>
+      <div class="preview">
+        <img src="pictures/gray1.webp" alt="Preview Image" id="preview-image">
       </div>
     </div>
 
   </div>
 
 
-  </div>
+
 </body>
 
 </html>
