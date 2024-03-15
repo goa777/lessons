@@ -101,5 +101,7 @@ border: 2px solid #9A54BC;
     }
 
     .topHeadBtn:hover {
-        
+        background-color: transparent;
+        color: #9a54bc;
+        cursor: pointer;
     }
