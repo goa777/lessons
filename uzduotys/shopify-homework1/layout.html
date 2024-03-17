@@ -98,13 +98,15 @@
 
 
   <div class="section-3">
+    <img src="pictures/desktop.webp" alt="doggo" />
     <div class="section-3-left">
-      <div>
+      <div class="section-3-left-headers">
         <h1>Travel with your<br>best buddy</h1>
-      </div>
-      <div>
         <h2>Enjoy 20% off with code 20OFF</h2>
       </div>
+    </div>
+
+    <div class="section-3-right">
     </div>
   </div>
 
@@ -115,11 +117,9 @@
 
 
   <div class="section-4">
-    <div>
-      <img class="schon" src="pictures/schon.webp" alt="list" />
-      <img class="tatler" src="pictures/tatler.webp" alt="list" />
-      <img class="vogue" src="pictures/vogue.webp" alt="list" />
-    </div>
+    <img class="schon" src="pictures/schon.webp" alt="list" />
+    <img class="tatler" src="pictures/tatler.webp" alt="list" />
+    <img class="vogue" src="pictures/vogue.webp" alt="list" />
   </div>
 
 
@@ -251,28 +251,102 @@
   </div>
 
   <div class="section-9">
-    tasdfasdfasdf
+    <h2>Why people love us?</h2>
+    <div class="section-9-container">
+      <div class="section-9-item">
+        <span>★★★★★</span>
+        <p class="section-9-item-p">I bought two different collars from Dogily and love everything about them. Quality
+          and look of the collars are on point. Super happy to find AirTag compatible collars for both my huskies.</p>
+        <p><b>Glenn</b></p>
+      </div>
+      <div class="section-9-item">
+        <span>★★★★★</span>
+        <p class="section-9-item-p">Our boy looks very stylish in his new collar. It is good quality, matches the
+          website description we looked at and more than meets our expectations.</p>
+        <p><b>Nathalie</b></p>
+      </div>
+      <div class="section-9-item">
+        <span>★★★★★</span>
+        <p class="section-9-item-p">My dogs loves it, he was very excited when I put it on him and showed it off to
+          everyone. Great quality and perfect fit!</p>
+        <p><b>Donna</b></p>
+      </div>
+    </div>
+    <ul class="slider-navigation">
+      <li class="nav-bullet active"></li>
+      <li class="nav-bullet"></li>
+      <li class="nav-bullet"></li>
+      <li class="nav-bullet"></li>
+      <li class="nav-bullet"></li>
+    </ul>
   </div>
-
 
   <div class="section-10">
 
     <script>
       function changeImage(imageSrc) {
         document.getElementById('preview-image').src = imageSrc;
+
+        var thumbnails = document.getElementsByClassName('thumbnail');
+        for (var i = 0; i < thumbnails.length; i++) {
+          thumbnails[i].style.border = 'none';
+        }
+        event.target.style.border = '1px solid #000';
       }
     </script>
 
-    <div class="image-gallery">
-      <div class="thumbnails">
-        <img src="pictures/gray1.webp" alt="Thumbnail 1" class="thumbnail" onclick="changeImage('pictures/gray1.webp')">
-        <img src="pictures/dark1.webp" alt="Thumbnail 2" class="thumbnail" onclick="changeImage('pictures/dark1.webp')">
-        <img src="pictures/beige1.webp" alt="Thumbnail 3" class="thumbnail"
-          onclick="changeImage('pictures/beige1.webp')">
+    <div class="section-10-container">
+
+      <div class="container">
+        <div class="section-10-container-left">
+          <div class="image-gallery">
+            <div class="thumbnails">
+              <img src="pictures/foldable-bowl1.webp" alt="Thumbnail 1" class="thumbnail"
+                onclick="changeImage('pictures/foldable-bowl1.webp')">
+              <img src="pictures/foldable-bowl2.webp" alt="Thumbnail 2" class="thumbnail"
+                onclick="changeImage('pictures/foldable-bowl2.webp')">
+              <img src="pictures/foldable-bowl3.webp" alt="Thumbnail 3" class="thumbnail"
+                onclick="changeImage('pictures/foldable-bowl3.webp')">
+            </div>
+            <div class="preview">
+              <img src="pictures/foldable-bowl1.webp" alt="Preview Image" id="preview-image">
+            </div>
+          </div>
+        </div>
+
+        <div class="section-10-container-right">
+          <div class="section-10-subtitle">
+            new arrival
+          </div>
+          <div class="section-10-title">
+            Foldable Travel Bowl
+          </div>
+          <div class="section-10-price">
+            $14.90
+          </div>
+          <div class="section-10-description">
+            <p>
+              Keep your pup hydrated and fed wherever you wander with this collapsible travel bowl! This foldable fabric
+              bowl is perfect for a day out in the park when your pal needs a quick sip or snack. No more bulky dog
+              bowls--pack it up and go! (Plus, it'll fit nicely in any handbag.)
+            </p>
+          </div>
+          <hr />
+          <div class="quantity-control">
+            <label for="quantity">Quantity</label>
+            <input type="number" value="1" min="1" max="10" id="quantity" />
+          </div>
+          <div class="payment-buttons">
+            <button class="add-to-cart">Add to cart</button>
+            <button class="buy-with">Buy it now</button>
+            <button class="more-payment-options">More payment options</button>
+          </div>
+          <div class="free-shipping-text">
+            <p>Free shipping and 30 day returns</p>
+          </div>
+        </div>
       </div>
-      <div class="preview">
-        <img src="pictures/gray1.webp" alt="Preview Image" id="preview-image">
-      </div>
+
     </div>
 
   </div>
