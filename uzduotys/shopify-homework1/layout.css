@@ -92,12 +92,13 @@ nav ul li a {
 svg {
   width: 30px;
   height: 30px;
-  fill: white;
+  fill: none;
+  stroke: #fff;
   transition: all 0.3s;
 }
 
 svg:hover {
-  fill: #E9EAEA;
+  stroke: #E9EAEA;
 }
 
 .desktop-menu {
@@ -747,4 +748,164 @@ ul.slider-navigation li:hover {
   font-size: 11px;
   color: #707075;
   letter-spacing: 2px;
+}
+
+.section-11 {
+  color: #333;
+  padding: 200px 0 80px 0;
+}
+
+.section-11-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.shipping-information-item {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: center;
+  border-right: 1px solid #e8e8e1;
+  flex: 1;
+}
+
+.shipping-information-item:last-child {
+  border-right: none;
+}
+
+.shipping-information-item img {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.section-12 {
+  font-family: sans-serif;
+  color: #3a3a3e;
+  text-align: center;
+  background-color: #F6DFD9;
+  padding: 50px 0;
+}
+
+.section-12-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.section-12-title {
+  letter-spacing: 1px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.section-12-newsletter-text {
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.section-12-newsletter-inputs {
+  margin-bottom: 20px;
+}
+
+.section-12-newsletter-inputs input {
+  padding: 15px 10px;
+  border: 2px solid #dee1e0;
+  background-color: #F6DFD9;
+  width: 290px;
+  margin-right: 0;
+}
+
+.section-12-newsletter-button {
+  background-color: #3a3a3e;
+  color: white;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: -4px;
+  border-radius: 0 5px 5px 0;
+}
+
+.section-12-newsletter-info {
+  font-size: 11px;
+}
+
+.section-13 {
+  font-family: sans-serif;
+  color: #3a3a3e;
+  text-align: center;
+  background-color: #B2E2D8;
+  padding: 50px 0;
+}
+
+.section-13-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-information-item {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-align: left;
+  flex: 1;
+}
+
+.footer-information-item p {
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.bigger-width {
+  flex-grow: 2;
+  text-align: right;
+}
+
+.section-13-container ul {
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.section-13-container ul li {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.section-13-container ul li a:visited {
+  color: inherit;
+}
+
+.section-13-container ul li a:hover {
+  text-decoration: underline;
+}
+
+.section-13-container ul li a {
+  text-decoration: none;
+}
+
+.supported-payments {
+  margin: 40px 0;
+}
+
+.copyright {
+  letter-spacing: 1px;
+  font-size: 12px;
 }
