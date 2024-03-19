@@ -8,6 +8,8 @@ function rand(min, max) {
 }
 
 
+//sviesoforas
+
 let sviesoforas = rand(0, 2);
 let spalva = sviesoforas === 0 ? 'raudona' : sviesoforas === 1 ? 'geltona' : 'zalia';
  
