@@ -86,8 +86,3 @@ switch (size) {
 
 console.clear();
 
-let vidinis;
-do {
-    vidinis = rand (5, 10);
-    console.log('Vidinis:')
-    }
