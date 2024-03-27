@@ -262,7 +262,6 @@ border: 2px solid #9A54BC;
 }
 
 
-
 .projectDoneContainer {
     margin-top: 150px;
     display: flex;
@@ -279,12 +278,10 @@ border: 2px solid #9A54BC;
     gap: 50px;
 }
 
-
 .projectDoneCard {
 display: flex;
 flex-direction: column;
 gap: 25px;
-
 }
 
 .projectDoneCard img {
@@ -298,11 +295,13 @@ gap: 25px;
 .projectDoneParaText {
     color: #60267F;
     font-weight: 600;
-}
+   }
 
 .projectDoneParaNumber {
     font-weight: 600;
-}
+   }
+
+
 
 
 
@@ -326,13 +325,32 @@ font-size: 36px;
 }
 
 
-.readyToStartDiscountContainer {
+.ReadyToStartDiscountContainer {
 margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
 
 }
 
+.ReadyToStartMonthly {
+    color: #a79d9d;
+    font-size: 14px;
+}
 
-.bigCardContainer {
+.readyToStartYearly {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tenProcentDiscount {
+    background-color: #ffe87a;
+    font-size: 10px;
+    padding: 2px;
+}
+
+.bigCardsContainer {
 display: flex;
 justify-content: center;
 align-items: center;
