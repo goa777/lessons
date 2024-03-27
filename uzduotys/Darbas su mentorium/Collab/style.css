@@ -245,3 +245,104 @@ border: 2px solid #9A54BC;
     .imgContainer {
         width: 50%;
     }
+
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 50px;
+}
+
+.videoPara {
+    width: 1000px;
+    text-align: center;
+}
+
+
+
+.projectDoneContainer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.projectDoneCard {
+display: flex;
+flex-direction: column;
+gap: 25px;
+
+}
+
+.projectDoneCard img {
+    width: 300px;
+}
+
+.projectDoneCard p {
+    margin-left: 10px;
+}
+
+.projectDoneParaText {
+    color: #60267F;
+    font-weight: 600;
+}
+
+.projectDoneParaNumber {
+    font-weight: 600;
+}
+
+
+
+
+.readyToStartContainer {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.readyToStartHeader {
+font-size: 36px;
+}
+
+.readyToStartSpan {
+    font-size: 14px;
+    color: #a79d9d;
+}
+
+
+.readyToStartDiscountContainer {
+margin-top: 15px;
+
+}
+
+
+.bigCardContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+.bigCard {
+border: 0.5px solid #aaaaaa;
+padding: 20px;
+width: 300px;
+height: 500px;
+border-radius: 4px;
+}
