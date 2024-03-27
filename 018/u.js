@@ -205,8 +205,45 @@ console.log(newMD2);
 
 
 
-//**************/
+                                                            //**************/
 //4. Surasti ir išspausdinti mažiausią skaičių
+
+
+function rand(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+const newMD3 = [];
+
+for (let i = 0; i < 5; i++) {
+    const row = [];
+    for (let j = 0; j < 4; j++) {
+        row.push(rand(10, 99));                                 // Pushing random two-digit numbers into the row
+    }
+    newMD3.push(row);                                           // Pushing the row into the 2D array
+}
+
+console.log(newMD3);
+
+let smallestNumber = newMD3[0][0];                              // Initialize smallestNumber with the first element of the array
+
+for (let i = 0; i < newMD3.length; i++) {
+    for (let j = 0; j < newMD3[i].length; j++) {
+        if (newMD3[i][j] < smallestNumber) {
+            smallestNumber = newMD3[i][j];                      // Update smallestNumber if a smaller number is found
+        }
+    }
+}
+
+console.log("The smallest number is:", smallestNumber);
+
+
+
+
+
+
+
+
 
 
 
@@ -215,5 +252,6 @@ const min = Math.min(...newMD2.flat());
 console.log(min);
 
 
-
+//      You can use the 'Math.min' function along with the spread operator ('...') to find the minimum value in the flattened array.
+//   Galite naudoti funkciją Math.min kartu su sklaidos operatoriumi (...), kad surastumėte mažiausią reikšmę išlygintame masyve.
 
