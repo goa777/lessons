@@ -48,5 +48,3 @@ const initialFuel = 44;
 const minFuel = 3; 
 const maxFuel = 6;
 
-let fuelLeft = initialFuel;
-let lapsCompleted = 0;
