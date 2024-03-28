@@ -423,34 +423,49 @@ padding: 0 0 0 5px;
     margin-top: 200px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 80px;
+    gap: 120px;
 }
 
 
 .stars {
-    width: 100px;
+    width: 200px;
 }
 
 .reviewContainer p {
 text-align: center;
 width: 700px;
-font-weight: 400;
-}
-
-.reviewParaContainer p::after {
-    content: \F138;
-    font-family: bootstrap-icon;
+font-weight: 500;
+font-size: 20px;
 }
 
 .reviewParaContainer {
-
+   width: 1200px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
 }
+
+
+.reviewParaContainer::after {
+    content: "\F138";
+    font-family: bootstrap-icons;
+    font-size: 48px;
+}
+
+.reviewParaContainer::before {
+    content: "\F12F"; 
+    font-family: bbootstrap-icons;
+    font-size: 48px;
+}
+
 .reviewPhoto {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: ;
+    gap: 10px;
 }
 
 
