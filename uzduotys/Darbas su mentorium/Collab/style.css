@@ -358,9 +358,103 @@ gap: 40px;
 }
 
 .bigCard {
-border: 0.5px solid #aaaaaa;
+border: 0.3px solid #aaaaaa6f;
 padding: 20px;
-width: 300px;
-height: 500px;
+width: 200px;
+height: 350px;
 border-radius: 4px;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+gap: 20px;
 }
+
+
+.bigCard span {
+font-weight: 700;
+
+}
+
+.bigCard h2 {
+    font-size: 28px;
+}
+
+.bigCard button {
+    padding: 10px 15px;
+    border: none;
+    border: 2px solid #280228;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.bigCard ul li {
+    list-style: none;
+font-size: 12px;
+margin-top: 10px;
+padding: 0 0 0 5px;
+}
+
+.bigCard ul li::marker {
+    content: "▶";
+    margin-left: 5px;
+}
+
+
+
+.bigCardThree {
+    background-color: #56E6A5;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.bigCardThree h2 {
+    width: 50%;
+}
+
+.bigCardThree p {
+    font-size: 12px;
+}
+
+
+.reviewContainer {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.stars {
+    width: 100px;
+}
+
+.reviewContainer p {
+text-align: center;
+width: 700px;
+font-weight: 400;
+}
+
+.reviewParaContainer p::after {
+    content: \F138;
+    font-family: bootstrap-icon;
+}
+
+.reviewParaContainer {
+
+}
+.reviewPhoto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: ;
+}
+
+
+
+
+
+
